@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizza"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:text="E A T   I T"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="#271A3F"
+        android:textSize="25sp"
+        android:id="@+id/title"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_marginBottom="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_width="240dp"
+            android:text="Sign In"
+            android:textColor="@android:color/white"
+            android:background="@drawable/border"
+            android:id="@+id/btn_signin"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:layout_width="240dp"
+            android:text="Sign Up"
+            android:background="@drawable/borderreg"
+            android:id="@+id/btn_signup"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
