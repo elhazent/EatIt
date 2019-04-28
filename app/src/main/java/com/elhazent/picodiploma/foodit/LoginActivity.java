@@ -11,8 +11,8 @@ import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity {
 
-    @BindView(R.id.edt_email_login)
-    EditText edtEmailLogin;
+    @BindView(R.id.edt_phone_login)
+    EditText edtPhoneLogin;
     @BindView(R.id.edt_password_login)
     EditText edtPasswordLogin;
     @BindView(R.id.btn_login)
